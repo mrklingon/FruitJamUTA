@@ -1,0 +1,12 @@
+      _   _ _____  _
+     | | | |_   _|/ \
+     | | | | | | / _ \
+     | |_| | | |/ ___ \
+      \___/  |_/_/   \_\
+      Universal Translator Assistant
+   Help commands:
+   *help - this file
+   *pItlh - quit program
+   *lang [filename] - loads langs/filename.lng
+
+    Languages: vulcan, tlhingan, mandoa, romulan
