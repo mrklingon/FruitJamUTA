@@ -35,8 +35,14 @@ def readDict(dictionary,VERBOSE):
 Done = False
 while not Done:
     words = input("text: ")
+#sanitize
+    w = ""
+    for c in words:
+        if (c<="z" and c >="a") or (c<="Z" and c >="A") or c == "'" or c == "*" or c == " ":
+            w = w+c
+        
     out = ""
-    ws = words.split()
+    ws = w.split()
     for w in ws:
         try:
             out = out + " " + (ed[w])
