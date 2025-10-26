@@ -40,6 +40,8 @@ while not Done:
     for c in words:
         if (c<="z" and c >="a") or (c<="Z" and c >="A") or c == "'" or c == "*" or c == " ":
             w = w+c
+        else:
+            w = w + " "
         
     out = ""
     ws = w.split()
