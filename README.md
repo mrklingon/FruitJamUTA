@@ -4,7 +4,7 @@ Universal Translator Assistant for the Fruit Jam
 The files should be put in apps/UTA, with the .lng files all put in a subdirectory **langs**.
 
 
-Enter text without punctuation, and UTA will match English words with the Alien languages. This is not true 
+Enter text and UTA will match English words with the Alien languages. This is not true 
 translation, but provides vocabulary you can use to translate into the target language. It will also match Alien words back 
 to English. Because more than one English word may map to an Alien word, the back translation may look odd.
 
